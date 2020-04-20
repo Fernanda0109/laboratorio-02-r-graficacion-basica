@@ -70,7 +70,9 @@ barplot(height=ca_covid19$confirmados)
 4. (10%) Con la función  ```order()```, ordene el data frame por cantidad de casos confirmados y genere de nuevo el gráfico.
 
 ```{r}
-
+confirmado.ordenado<-order(ca_covid19$confirmado, decreasing=TRUE) 
+ca_covid19.confirmado <- ca_covid19[confirmado.ordenado,]
+barplot(height=ca_covid19.confirmado$confirmado)
 ```
 
 5. (10%) Incluya en el gráfico los siguientes componentes:
