@@ -86,7 +86,7 @@ barplot(
   names.arg=ca_covid19.confirmado$pais, 
   xlab="Países",
   ylab="Casos confirmados", 
-  main="Casos confirmados de Covid-19 en países de América Central y República Dominica"
+  main="Casos confirmados de Covid-19 en países de América Central y República Dominicana"
 )
 
 ```
@@ -105,7 +105,7 @@ barplot(
   names.arg=ca_covid19.activos$pais, 
   xlab="Países",
   ylab="Casos activos", 
-  main="Casos activos de Covid-19 en países de América Central y República Dominica"
+  main="Casos activos de Covid-19 en países de América Central y República Dominicana"
 )
 ```
 
@@ -119,6 +119,6 @@ barplot(
   names.arg=ca_covid19.fallecidos$pais, 
   xlab="Países",
   ylab="personas fallecidos", 
-  main="personas fallecidos de Covid-19 en países de América Central y República Dominica"
+  main="personas fallecidos de Covid-19 en países de América Central y República Dominicana"
 )
 ```
