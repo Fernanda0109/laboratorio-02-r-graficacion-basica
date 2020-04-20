@@ -81,6 +81,13 @@ barplot(height=ca_covid19.confirmado$confirmado)
 - Titulo del gráfico.
 
 ```{r}
+barplot(
+  height=ca_covid19.confirmado$confirmado, 
+  names.arg=ca_covid19.confirmado$pais, 
+  xlab="Países",
+  ylab="Casos confirmados", 
+  main="Casos confirmados de Covid-19 en países de América Central y República Dominica"
+)
 
 ```
 
