@@ -96,10 +96,11 @@ barplot(
 - (25%) Casos fallecidos.
 
 ```{r}
-barplot(height=ca_covid19$activos)
+
 activos.ordenado<-order(ca_covid19$activos, decreasing=TRUE) 
 ca_covid19.activos <- ca_covid19[activos.ordenado,]
 barplot(height=ca_covid19.activos$activos)
+
 barplot(
   height=ca_covid19.activos$activos, 
   names.arg=ca_covid19.activos$pais, 
@@ -110,10 +111,11 @@ barplot(
 ```
 
 ```{r}
-barplot(height=ca_covid19$fallecidos)
+
 fallecidos.ordenado<-order(ca_covid19$fallecidos, decreasing=TRUE) 
 ca_covid19.fallecidos <- ca_covid19[fallecidos.ordenado,]
 barplot(height=ca_covid19.fallecidos$fallecidos)
+
 barplot(
   height=ca_covid19.fallecidos$fallecidos, 
   names.arg=ca_covid19.fallecidos$pais, 
